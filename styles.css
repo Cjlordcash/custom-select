@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.menuDiv {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(125deg, #006eff, #5a1208);
+}
+
+.selectDiv {
+  width: 300px;
+}
+
+.fieldSel {
+  width: 100%;
+  padding: 10px 15px;
+  background: rgba(255, 255, 255, 0.8);
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.fieldSel img {
+  width: 10px;
+  transition: transform 0.4s;
+}
+#list {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.list-options {
+  width: 100%;
+  padding: 10px 0 20px 60px;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: relative;
+}
+.list-options img {
+  width: 20px;
+  position: absolute;
+  left: 20px;
+  top: 9px;
+}
+.list-options:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
